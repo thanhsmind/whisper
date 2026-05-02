@@ -1,4 +1,7 @@
 # translator
+Install python 
+winget install --id Python.Python.3.12 -e
+winget install --id Gyan.FFmpeg -e
 
 CLI batch-transcriber for MP4 files using `whisper.cpp` built with Vulkan
 (real GPU acceleration on AMD Radeon under Windows).
