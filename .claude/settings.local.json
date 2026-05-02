@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where ffmpeg *)",
+      "Bash(ffmpeg -version)",
+      "Bash(py -3.11 --version)",
+      "Bash(where python *)",
+      "PowerShell($r = Invoke-RestMethod \"https://api.github.com/repos/ggml-org/whisper.cpp/releases/latest\"; \"Tag: $\\($r.tag_name\\)\"; \"---\"; $r.assets | ForEach-Object { \"{0,-60} {1,5} MB\" -f $_.name, [int]\\($_.size/1MB\\) })"
+    ]
+  }
+}

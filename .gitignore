@@ -1,0 +1,7 @@
+_src/
+bin/
+models/
+out/
+.venv/
+__pycache__/
+*.pyc
